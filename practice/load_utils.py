@@ -118,3 +118,4 @@ def load_dirty():
     arr[_OUTLIER_IDX] = arr[_OUTLIER_IDX] * _OUTLIER_SCALE
 
     return arr, np.sort(_NAN_IDX), np.sort(_OUTLIER_IDX)
+
